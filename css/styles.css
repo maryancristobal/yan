@@ -1,0 +1,166 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	
+	height: 100vh;
+	background: skyblue;
+	background-size: cover;
+	background-position: center;
+}
+
+nav{
+	background: #add1e6;
+	width: 100%;
+	overflow: auto;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+li{
+	float: right;
+
+}
+nav a{
+	width: 120px;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	background-color: ##add8e6;
+	font-size: 17px;
+	color: white;
+	padding: 20px 10px;
+	font-family: Verdana;
+}
+nav a:hover{
+	background-color: skyblue;
+	color: black;
+}
+.container{
+	max-width: 1200px;
+	margin: auto;
+	background: #f2f2f2;
+	overflow: auto;
+}
+.gallery{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 390px;
+
+}
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.rounded{
+	width: 300px;
+	margin: auto;
+	
+}
+.rounded img{
+	border-radius: 50%
+
+}
+
+.box{
+	position: relative;
+	max-width: 600px;
+	padding: 50px:
+	background: rgba(255,255,255,.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+h4{
+	font-size: 3em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Segoe Print;
+
+}
+h3{
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Segoe Print;
+
+}
+.social img{
+	position: center;
+
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: Segoe Print;
+	user-select: none;
+}
+.center h1{
+		color: navy;
+		font-size: 70px;
+		font-weight: bold;
+		width: 900px;
+		text-align: center;
+}
+.center h2{
+		color: black;
+		font-size: 40px;
+		font-weight: bold;
+		width: 885px;
+		margin-top: 10px;
+		text-align: center;
+}
+
+.center .buttons{
+	margin: 35px 280px;
+
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffff;
+	background: red;
+	border: 1px solid #cc0000;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+	transition:  .5s;
+}
+.buttons .btn{
+		margin-left: 25px;
+
+}
+.buttons button: hover{
+	background: #cc0000;
+}
+
+footer{
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	background: blue;
+	color: white;
+	font-family Arial;
+	letter-spacing: 5px;
+}
